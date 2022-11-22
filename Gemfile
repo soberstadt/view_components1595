@@ -33,7 +33,7 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 # gem "sassc-rails"
 
-gem "primer_view_components"
+gem "primer_view_components", github: "soberstadt/view_components", branch: "patch-1"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
