@@ -35,3 +35,6 @@ module ViewComponents1595
     config.generators.system_tests = nil
   end
 end
+
+require "view_component"
+require "primer/view_components/engine"
