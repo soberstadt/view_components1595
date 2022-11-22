@@ -95,6 +95,9 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
+    minitest-rails (7.0.0)
+      minitest (~> 5.10)
+      railties (~> 7.0.0)
     msgpack (1.6.0)
     net-imap (0.3.1)
       net-protocol
@@ -181,6 +184,7 @@ DEPENDENCIES
   bootsnap
   debug
   importmap-rails
+  minitest-rails
   primer_view_components
   puma (~> 5.0)
   rails (~> 7.0.4)
